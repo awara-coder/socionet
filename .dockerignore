@@ -1,0 +1,11 @@
+.drone.yml
+.git
+.gitignore
+.dockerignore
+Dockerfile
+README.md
+docker-compose.yml
+*.log
+*.pot
+*.pyc
+__pycache__/
