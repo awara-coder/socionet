@@ -122,3 +122,6 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 
 STATIC_URL = '/static/'
+
+# Added CustomUser as default user for Auth app
+AUTH_USER_MODEL = 'users.CustomUser'
